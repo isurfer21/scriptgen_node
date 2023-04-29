@@ -1,0 +1,40 @@
+{
+  "name": "scriptgen",
+  "version": "1.0.0",
+  "description": "ScriptGen is a script generator tool that simplifies the process of running scripts in any language.",
+  "main": "scriptgen.js",
+  "scripts": {
+    "start": "node scriptgen.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "yargs": "^17.7.1"
+  },
+  "keywords": [
+    "ScriptGen",
+    "script generator",
+    "bash",
+    "PowerShell",
+    "batch scripts",
+    "interpreter",
+    "command",
+    "Windows",
+    "macOS",
+    "Shell",
+    "cli",
+    "tool"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isurfer21/scriptgen_node.git"
+  },
+  "author": "Abhishek Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isurfer21/scriptgen_node/issues"
+  },
+  "homepage": "https://github.com/isurfer21/scriptgen_node#readme",
+  "bin": {
+    "scriptgen": "./scriptgen.js"
+  }
+}
